@@ -12005,7 +12005,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 VOLTAGE
 PROTECTION</text>
 <text x="-55.88" y="7.62" size="1.778" layer="91">ON/OFF/ON</text>
-<text x="43.18" y="48.26" size="3.81" layer="91">WWW.GUVVY.CO.UK</text>
+<text x="43.18" y="45.72" size="3.81" layer="91">WWW.GUVVY.CO.UK</text>
 </plain>
 <instances>
 <instance part="BAT1" gate="G$1" x="-81.28" y="-7.62">
