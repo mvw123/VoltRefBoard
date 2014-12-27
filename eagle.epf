@@ -378,7 +378,7 @@ UsedLibrary="/Applications/EAGLE-6.5.0/lbr/Guvvy_Libs/BC9VPC_ShortenedSilkScreen
 
 [Win_1]
 Type="Control Panel"
-Loc="30 23 1241 956"
+Loc="102 23 1528 858"
 State=2
 Number=0
 
