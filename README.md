@@ -1,4 +1,4 @@
-Voltage Calibration Board
+Voltage Reference Board
 =========================
 
 Reference board for voltage calibration. 
@@ -15,5 +15,3 @@ The use of >10V is slightly more accurate when using these precision reference I
 
 MVW
 www.guvvy.co.uk
-
-
