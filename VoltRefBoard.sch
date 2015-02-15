@@ -11887,14 +11887,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="TP1" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="MF" value="MULTICOMP"/>
+<attribute name="MPN" value="TEST-3"/>
+<attribute name="OC_FARNELL" value="1702006"/>
 </part>
 <part name="TP3" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="MF" value="MULTICOMP"/>
+<attribute name="MPN" value="TEST-3"/>
+<attribute name="OC_FARNELL" value="1702006"/>
 </part>
 <part name="SUPPLY13" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY14" library="supply2" deviceset="GND" device=""/>
@@ -11919,9 +11919,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="TP2" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="MF" value="MULTICOMP"/>
+<attribute name="MPN" value="TEST-3"/>
+<attribute name="OC_FARNELL" value="1702006"/>
 </part>
 <part name="SUPPLY1" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="supply2" deviceset="GND" device=""/>
@@ -11961,9 +11961,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="OC_FARNELL" value="1082316"/>
 </part>
 <part name="LED1" library="P-LCC-2_Shorter" deviceset="LED" device="P-LCC-2" value="GREEN_LED">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="MF" value="OSRAM"/>
+<attribute name="MPN" value="LGT67K-H2K1-24-Z"/>
+<attribute name="OC_FARNELL" value="1226376"/>
 </part>
 <part name="R1" library="rcl" deviceset="R-EU_" device="R0805" value="2k">
 <attribute name="MF" value=""/>
@@ -11979,14 +11979,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="OC_FARNELL" value="2113189"/>
 </part>
 <part name="TM1" library="P-LCC-2_Shorter" deviceset="TRIMPOT" device="TC33X" value="10k">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="MF" value="VISHAY SFERNICE"/>
+<attribute name="MPN" value="TS53YJ103MR10"/>
+<attribute name="OC_FARNELL" value="1141485"/>
 </part>
 <part name="TM2" library="P-LCC-2_Shorter" deviceset="TRIMPOT" device="TC33X" value="10k">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="MF" value="VISHAY SFERNICE"/>
+<attribute name="MPN" value="TS53YJ103MR10"/>
+<attribute name="OC_FARNELL" value="1141485"/>
 </part>
 <part name="F1" library="adafruit" deviceset="PTCFUSE" device="-1812" value="1.1A">
 <attribute name="MF" value="TE CONNECTIVITY / RAYCHEM"/>
@@ -12006,6 +12006,7 @@ VOLTAGE
 PROTECTION</text>
 <text x="-55.88" y="7.62" size="1.778" layer="91">ON/OFF/ON</text>
 <text x="43.18" y="45.72" size="3.81" layer="91">WWW.GUVVY.CO.UK</text>
+<text x="149.86" y="50.8" size="1.778" layer="91">Banana plug socket holes may not be the right size. Also need to be different colours</text>
 </plain>
 <instances>
 <instance part="BAT1" gate="G$1" x="-81.28" y="-7.62">
