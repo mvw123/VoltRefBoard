@@ -138,9 +138,9 @@
 <text x="38" y="44.9" size="1.778" layer="25" rot="R90" align="center">GND</text>
 <text x="27.3" y="7.025" size="1.778" layer="25" rot="R270" align="center">GND</text>
 <text x="11.5" y="7.025" size="1.778" layer="25" rot="R270" align="center">GND</text>
-<wire x1="27.3" y1="12.4" x2="13.8" y2="12.4" width="1.27" layer="46"/>
+<wire x1="26.3" y1="12.4" x2="13.8" y2="12.4" width="1.27" layer="46"/>
 <wire x1="13.8" y1="12.4" x2="9.2" y2="17" width="1.27" layer="46"/>
-<wire x1="31.3" y1="12.5" x2="41.6" y2="12.5" width="1.27" layer="46"/>
+<wire x1="32.5" y1="12.5" x2="41.6" y2="12.5" width="1.27" layer="46"/>
 <wire x1="41.6" y1="12.5" x2="45.1" y2="15.8" width="1.27" layer="46"/>
 <wire x1="45.1" y1="36.2" x2="42.5" y2="38.8" width="1.27" layer="46"/>
 <wire x1="42.5" y1="38.8" x2="17.8" y2="38.8" width="1.27" layer="46"/>
@@ -1715,38 +1715,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 </library>
-<library name="Wago-2060-402">
-<description>&lt;b&gt; Developed By element14 &lt;/b&gt;&lt;p&gt; 
-
-For feedback and Technical support please contact reach from below:
-&lt;br&gt; Tech Support e-mail  : &lt;a href="mailto:CAD_Tech@element14.com"&gt;CAD_Tech@element14.com&lt;/a&gt;
-&lt;br&gt;Community website: &lt;a href=http://www.element14.com/community/community/knode/cad_tools/cadsoft_eagle/eagle_cad_libraries&gt;
-EAGLE CAD Libraries on element14&lt;/a&gt;</description>
-<packages>
-<package name="WAGO_2060-402">
-<smd name="1" x="-4" y="2" dx="6" dy="2" layer="1"/>
-<smd name="2" x="-4" y="-2" dx="6" dy="2" layer="1"/>
-<smd name="B-1" x="5.25" y="2" dx="3.5" dy="2" layer="1"/>
-<smd name="B-2" x="5.25" y="-2" dx="3.5" dy="2" layer="1"/>
-<wire x1="-6.5" y1="3.95" x2="5" y2="3.95" width="0.127" layer="51"/>
-<wire x1="5" y1="3.95" x2="5" y2="-3.95" width="0.127" layer="51"/>
-<wire x1="5" y1="-3.95" x2="-6.5" y2="-3.95" width="0.127" layer="51"/>
-<wire x1="-6.5" y1="-3.95" x2="-6.5" y2="3.95" width="0.127" layer="51"/>
-<wire x1="-6.5" y1="3.5" x2="-6.5" y2="3.95" width="0.2" layer="21"/>
-<wire x1="-6.5" y1="3.95" x2="5" y2="3.95" width="0.2" layer="21"/>
-<wire x1="5" y1="3.95" x2="5" y2="3.4" width="0.2" layer="21"/>
-<wire x1="-6.5" y1="0.6" x2="-6.5" y2="-0.5" width="0.2" layer="21"/>
-<wire x1="5" y1="0.6" x2="5" y2="-0.5" width="0.2" layer="21"/>
-<wire x1="-6.5" y1="-3.95" x2="5" y2="-3.95" width="0.2" layer="21"/>
-<wire x1="-6.5" y1="-3.9" x2="-6.5" y2="-3.45" width="0.2" layer="21"/>
-<wire x1="5" y1="-3.35" x2="5" y2="-3.9" width="0.2" layer="21"/>
-<text x="-5.08" y="5.08" size="2.0828" layer="25" ratio="10">&gt;Name</text>
-<text x="-5.08" y="-7.62" size="2.0828" layer="27" ratio="10">&gt;Value</text>
-<circle x="-7.9" y="2" radius="0.316225" width="0.127" layer="21"/>
-<circle x="-7.9" y="2" radius="0.316225" width="0.127" layer="51"/>
-</package>
-</packages>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2099,13 +2067,6 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="MPN" value="PMEG3010EJ,115" x="13.6" y="33.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="15.4" y="32.8" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="15.3" y="31.6" size="0.8128" layer="27" font="vector" rot="R90"/>
-</element>
-<element name="J3" library="Wago-2060-402" package="WAGO_2060-402" value="2060-402" x="69.6" y="21.6">
-<attribute name="MPN" value="2060-402/998-404" x="69.6" y="21.6" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="62T0379 " x="69.6" y="21.6" size="1.778" layer="27" display="off"/>
-<attribute name="PACKAGE" value="SMD-R/A" x="69.6" y="21.6" size="1.778" layer="27" display="off"/>
-<attribute name="SUPPLIER" value="WAGO" x="69.6" y="21.6" size="1.778" layer="27" display="off"/>
-<attribute name="OC_FARNELL" value="2102477 " x="69.6" y="21.6" size="1.778" layer="27" display="off"/>
 </element>
 </elements>
 <signals>

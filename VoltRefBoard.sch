@@ -12948,83 +12948,6 @@ DPDT SMT slide switch, AYZ0202, SWCH-08179</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="Wago-2060-402">
-<description>&lt;b&gt; Developed By element14 &lt;/b&gt;&lt;p&gt; 
-
-For feedback and Technical support please contact reach from below:
-&lt;br&gt; Tech Support e-mail  : &lt;a href="mailto:CAD_Tech@element14.com"&gt;CAD_Tech@element14.com&lt;/a&gt;
-&lt;br&gt;Community website: &lt;a href=http://www.element14.com/community/community/knode/cad_tools/cadsoft_eagle/eagle_cad_libraries&gt;
-EAGLE CAD Libraries on element14&lt;/a&gt;</description>
-<packages>
-<package name="WAGO_2060-402">
-<smd name="1" x="-4" y="2" dx="6" dy="2" layer="1"/>
-<smd name="2" x="-4" y="-2" dx="6" dy="2" layer="1"/>
-<smd name="B-1" x="5.25" y="2" dx="3.5" dy="2" layer="1"/>
-<smd name="B-2" x="5.25" y="-2" dx="3.5" dy="2" layer="1"/>
-<wire x1="-6.5" y1="3.95" x2="5" y2="3.95" width="0.127" layer="51"/>
-<wire x1="5" y1="3.95" x2="5" y2="-3.95" width="0.127" layer="51"/>
-<wire x1="5" y1="-3.95" x2="-6.5" y2="-3.95" width="0.127" layer="51"/>
-<wire x1="-6.5" y1="-3.95" x2="-6.5" y2="3.95" width="0.127" layer="51"/>
-<wire x1="-6.5" y1="3.5" x2="-6.5" y2="3.95" width="0.2" layer="21"/>
-<wire x1="-6.5" y1="3.95" x2="5" y2="3.95" width="0.2" layer="21"/>
-<wire x1="5" y1="3.95" x2="5" y2="3.4" width="0.2" layer="21"/>
-<wire x1="-6.5" y1="0.6" x2="-6.5" y2="-0.5" width="0.2" layer="21"/>
-<wire x1="5" y1="0.6" x2="5" y2="-0.5" width="0.2" layer="21"/>
-<wire x1="-6.5" y1="-3.95" x2="5" y2="-3.95" width="0.2" layer="21"/>
-<wire x1="-6.5" y1="-3.9" x2="-6.5" y2="-3.45" width="0.2" layer="21"/>
-<wire x1="5" y1="-3.35" x2="5" y2="-3.9" width="0.2" layer="21"/>
-<text x="-5.08" y="5.08" size="2.0828" layer="25" ratio="10">&gt;Name</text>
-<text x="-5.08" y="-7.62" size="2.0828" layer="27" ratio="10">&gt;Value</text>
-<circle x="-7.9" y="2" radius="0.316225" width="0.127" layer="21"/>
-<circle x="-7.9" y="2" radius="0.316225" width="0.127" layer="51"/>
-</package>
-</packages>
-<symbols>
-<symbol name="2060-402">
-<wire x1="0" y1="0.254" x2="0" y2="-0.254" width="0.254" layer="94"/>
-<wire x1="0" y1="-0.254" x2="1.524" y2="-0.254" width="0.254" layer="94"/>
-<wire x1="1.524" y1="-0.254" x2="1.524" y2="0.254" width="0.254" layer="94"/>
-<wire x1="1.524" y1="0.254" x2="0" y2="0.254" width="0.254" layer="94"/>
-<wire x1="0" y1="-2.286" x2="0" y2="-2.794" width="0.254" layer="94"/>
-<wire x1="0" y1="-2.794" x2="1.524" y2="-2.794" width="0.254" layer="94"/>
-<wire x1="1.524" y1="-2.794" x2="1.524" y2="-2.286" width="0.254" layer="94"/>
-<wire x1="1.524" y1="-2.286" x2="0" y2="-2.286" width="0.254" layer="94"/>
-<text x="-2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
-<text x="-2.54" y="-6.35" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="-1" x="-2.54" y="0" visible="pin" length="short" direction="pas"/>
-<pin name="-2" x="-2.54" y="-2.54" visible="pin" length="short" direction="pas"/>
-<pin name="B-2" x="-5.08" y="-2.54" visible="off" length="short" direction="pas"/>
-<pin name="B-1" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="2060-402" prefix="J">
-<description>SMD Terminal Strips with Push-Buttons, R/A, 2WAY</description>
-<gates>
-<gate name="A" symbol="2060-402" x="5.08" y="0"/>
-</gates>
-<devices>
-<device name="" package="WAGO_2060-402">
-<connects>
-<connect gate="A" pin="-1" pad="1"/>
-<connect gate="A" pin="-2" pad="2"/>
-<connect gate="A" pin="B-1" pad="B-1"/>
-<connect gate="A" pin="B-2" pad="B-2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MPN" value="2060-402/998-404" constant="no"/>
-<attribute name="OC_FARNELL" value="2102477 " constant="no"/>
-<attribute name="OC_NEWARK" value="62T0379 " constant="no"/>
-<attribute name="PACKAGE" value="SMD-R/A" constant="no"/>
-<attribute name="SUPPLIER" value="WAGO" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -13183,7 +13106,6 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <attribute name="MPN" value="PMEG3010EJ,115"/>
 <attribute name="OC_FARNELL" value="1757770"/>
 </part>
-<part name="J3" library="Wago-2060-402" deviceset="2060-402" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -13206,7 +13128,6 @@ PROTECTION</text>
 - Work out if an input bridge rectifier is cheaper than fuse+diode. 
 - Make it all SMD, especially the switch, infact does it need a switch?
 - Add resistors and options for cap / inductors</text>
-<text x="-86.36" y="-15.24" size="1.778" layer="91">CONSIDER USING THE WAGO SMD PUSH BUTTON CONNECTOR INSTEAD OF TH CONNECTOR</text>
 </plain>
 <instances>
 <instance part="SUPPLY11" gate="GND" x="93.98" y="-15.24"/>
@@ -13358,7 +13279,6 @@ PROTECTION</text>
 <attribute name="MF" x="-5.08" y="22.86" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="-5.08" y="22.86" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="J3" gate="A" x="-99.06" y="-12.7"/>
 </instances>
 <busses>
 </busses>
